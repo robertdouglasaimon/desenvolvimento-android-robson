@@ -79,7 +79,7 @@ fun ArticleCard(
         Text(
             text = longDescription,
             textAlign = TextAlign.Justify,
-            modifier = Modifier.padding(15.dp)
+            modifier = Modifier.padding(16.dp)
         )
 
     }
