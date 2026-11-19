@@ -56,8 +56,8 @@ fun ArticleCard(
     longDescription: String,
     modifier: Modifier = Modifier
 ) {
-    // Carrega a imagem BANNER.png da pasta res/drawable (conforme o Anexo 3)
-    val image = painterResource(R.drawable.BANNER)
+    // Carrega a imagem banner.png da pasta res/drawable
+    val image = painterResource(R.drawable.banner)
     Column(modifier = modifier) {
         Image(
             painter = image,
