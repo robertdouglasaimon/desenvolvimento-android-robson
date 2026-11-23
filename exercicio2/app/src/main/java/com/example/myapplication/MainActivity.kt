@@ -247,7 +247,7 @@ fun compartilhar(
     )
 }
 
-@Preview(showBackground = true)
+@Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun CartaoDigitalPreview() {
     MyApplicationTheme {
